@@ -53,8 +53,8 @@ An intelligent customer support copilot that automates ticket context gathering.
 * **Language:** Python 3.10+
 * **LLM:** OpenAI (GPT-4o / GPT-4o-mini) / Groq Llama-3
 * **Agent Framework:** LangChain & LangGraph
-* **Memory Management:** Mem0 / LangMem
-* **Vector Database:** FAISS / Pinecone
+* **Memory Management:** Mem0, LangMem
+* **Vector Database:** PostGreSQL, Redis, Pinecone
 * **Backend:** FastAPI, Pydantic v2
 * **Frontend UI:** Streamlit
 
@@ -63,17 +63,24 @@ An intelligent customer support copilot that automates ticket context gathering.
 ## 📂 Repository Structure
 
 ```text
-├── app/
-│   ├── api/                  # FastAPI endpoints & request handling
-│   ├── agent/                # LangChain agent executor & custom prompts
-│   ├── memory/               # Mem0 / LangMem persistent memory wrappers
-│   ├── tools/                # SQL database connectors & CRM tools
-│   └── vectorstore/          # Document loading, chunking & FAISS index
-├── data/                     # Mock customer database & policy documents
-├── streamlit_app.py          # Streamlit UI for customer copilot
-├── requirements.txt          # Dependencies
-├── .env.example              # Environment variables template
-└── README.md
+├── .github/                # GitHub actions, CI/CD pipelines, & issue templates
+├── customer_support_agent/ # Core agent package, node definitions & state workflows
+├── docs/                   # Architecture diagrams, API specs, & documentation
+├── evals/                  # Evaluation framework & LLM-as-a-Judge benchmark datasets
+├── knowledge_base/         # RAG documents, policy PDFs, & domain context files
+├── notebooks/              # Jupyter notebooks for prototyping & experiments
+├── tests/                  # Unit and integration test suites
+├── .gitignore              # Files & folders ignored by Git
+├── .python-version         # Python environment version specifier
+├── app.py                  # Web application UI (Streamlit / FastAPI entrypoint)
+├── docker-compose.yaml     # Container orchestration for app & services
+├── Dockerfile              # Docker container build specifications
+├── flow.excalidraw         # Architecture & execution flow diagram design file
+├── main.py                 # Primary execution script
+├── output.md               # Generated sample outputs & logs
+├── pyproject.toml          # Project dependencies & tool configurations
+├── README.md               # Project overview and documentation
+└── uv.lock                 # Lockfile for precise UV dependency management
 
 ```
 
