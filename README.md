@@ -31,8 +31,9 @@ An intelligent customer support copilot that automates ticket context gathering.
 │ (Mem0 / Short & Long) │ │ (FAISS / Vector DB)   │ │ (SQL / CRM / Billing) │
 └───────────────────────┘ └───────────────────────┘ └───────────────────────┘
 
-## 📌 Overall Architecture
-![image](https://github.com/user-attachments/assets/9d050979-d6cd-4cd1-8e97-c2da27e9f7fd)
+## 📌 Overall Architecture:
+
+![Architecture](architecture.png)
 
 
 
