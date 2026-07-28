@@ -1,3 +1,4 @@
+
 ```markdown
 # 🤖 AI-Powered Customer Support Agent with Memory & Tool Calling
 
@@ -31,6 +32,8 @@ An intelligent customer support copilot that automates ticket context gathering.
 └───────────────────────┘ └───────────────────────┘ └───────────────────────┘
 
 ## 📌 Overall Architecture
+<img width="1523" height="1032" alt="Overall_Architecture" src="https://github.com/user-attachments/assets/9d050979-d6cd-4cd1-8e97-c2da27e9f7fd" />
+
 
 
 
