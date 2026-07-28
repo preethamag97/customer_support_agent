@@ -1,12 +1,6 @@
 ```markdown
 # 🤖 AI-Powered Customer Support Agent with Memory & Tool Calling
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![LangChain](https://img.shields.io/badge/Framework-LangChain-green.svg)](https://www.langchain.com/)
-[![Mem0](https://img.shields.io/badge/Memory-Mem0%2FLangMem-purple.svg)](https://mem0.ai/)
-[![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com/)
-[![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B.svg)](https://streamlit.io/)
-
 An intelligent customer support copilot that automates ticket context gathering. By combining **RAG for policy lookup**, **Mem0/LangMem for persistent user memory**, and **LangChain tool calling for CRM and billing operations**, this agent generates ready-to-review responses in a single click, saving support teams up to 60% of their manual context-switching time.
 
 ---
@@ -37,7 +31,7 @@ An intelligent customer support copilot that automates ticket context gathering.
 └───────────────────────┘ └───────────────────────┘ └───────────────────────┘
 
 ## 📌 Overall Architecture
-<img width="1523" height="1032" alt="ChatGPT Image Jun 8, 2026, 08_52_38 PM" src="https://github.com/user-attachments/assets/530e0c03-fbba-4bcc-811a-a422a39c9071" />
+
 
 
 ```
