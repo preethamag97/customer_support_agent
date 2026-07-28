@@ -36,8 +36,6 @@ An intelligent customer support copilot that automates ticket context gathering.
 ![Architecture](architecture.png)
 
 
-
-
 ```
 
 ---
